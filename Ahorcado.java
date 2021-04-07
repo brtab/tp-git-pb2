@@ -7,6 +7,7 @@ public class Ahorcado {
     public static void main(String[] args) {
         Integer a;
         Integer b;
+        Integer c;
         Integer opcion;
         Integer resultado;
         Scanner teclado = new Scanner(System.in);
