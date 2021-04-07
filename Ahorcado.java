@@ -8,7 +8,7 @@ public class Ahorcado {
         Integer a;
         Integer b;
         Integer opcion;
-        Integer resultado;
+        Integer resultado = 0;
         Scanner teclado = new Scanner(System.in);
         do{
             System.out.println("Ingrese su operación /n 1 para sumar /n 2 para restar /n 3 para multiplicar /n 4 para dividir");
@@ -18,15 +18,20 @@ public class Ahorcado {
         a = teclado.nextInt();
         System.out.println("Ingrese el segundo numero");
         b = teclado.nextInt();
-        if(opcion.equals(1)){
-            resultado = a + b;
-        }else if(opcion.equals(2)){
-            resultado = a - b;
-        }else if(opcion.equals(3)){
-            resultado = a * b;
-        }else{
-            resultado = a / b;
+        switch(opcion){
+            case 1:
+                resultado = a + b;
+                break;
+            case 2:
+                resultado = a - b;
+                break;
+            case 3:
+                resultado = a * b;
+                break;
+            case 4:
+                resultado = a / b;
         }
+
         System.out.println("El resultado es " + resultado.toString());
     }
 
