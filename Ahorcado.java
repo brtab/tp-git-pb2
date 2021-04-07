@@ -28,7 +28,7 @@ public class Ahorcado {
         }else{
             resultado = a / b;
         }
-        System.out.println("El resultado del ahorcado es " + resultado.toString());
+        System.out.println("El resultado del ahorcado es: " + resultado.toString());
     }
 
 }
