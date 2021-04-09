@@ -81,7 +81,7 @@ public class Ahorcado {
 	public static void multiplicar(int a, int b) {
 		int resultado = 0;
 		resultado = a * b;
-	System.out.println("El resultado es " + resultado);
+	System.out.println("El resultado es: " + resultado);
 	}
 
 }
