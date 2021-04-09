@@ -13,7 +13,7 @@ public class Ahorcado {
         Integer resultado;
         Scanner teclado = new Scanner(System.in);
         do{
-            System.out.println("Ingrese su operación /n 1 para sumar /n 2 para restar /n 3 para multiplicar /n 4 para dividir");
+            System.out.println("Ingrese su operación /n 1 para restar /n 2 para sumar /n 3 para dividir /n 4 para multiplicar");
                     opcion = teclado.nextInt();
         }while(opcion < 1 && opcion > 4);
         System.out.println("Ingrese el primer numero");
